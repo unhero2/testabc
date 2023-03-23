@@ -1,6 +1,8 @@
-name: windowsservervps
+name: testabc
 
-on: workflow_dispatch
+on:
+  watch:
+    types: [started]
 
 jobs:
   build:
